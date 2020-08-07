@@ -19,7 +19,7 @@ namespace ProductsWithRouting.Controllers
             myUsers = data.Users;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string id)
         {
             return View(myUsers);
         }

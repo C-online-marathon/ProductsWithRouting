@@ -19,7 +19,7 @@ namespace ProductsWithRouting.Controllers
             myProducts = data.Products;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int filterId, string filtername)
         {
             return View(myProducts);
         }
