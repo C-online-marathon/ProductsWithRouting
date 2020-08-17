@@ -1,7 +1,7 @@
 ## Please, update the initial application so that a user will be able to:
 
 1. View list of products (page available via ../products/index, ../items/index, ../products/ and ../items)
-2. User Edit, View links that lead to corresponding views
+2. User can click on Edit, View links that lead to corresponding views
 3. Edit a product can be performed
 4. A new product can be added
 5. Delete of a product can be performed by clicking on the corresponding Delete link
