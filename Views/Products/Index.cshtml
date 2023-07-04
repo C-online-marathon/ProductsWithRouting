@@ -37,9 +37,9 @@
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
-                @*@Html.ActionLink("Edit", , )*@ Edit |
-                @*@Html.ActionLink("Details", , )*@ View |
-                @*@Html.ActionLink("Delete", , )*@ Delete
+                @Html.ActionLink("Edit","Edit", item) |
+                @Html.ActionLink("Details", "View", item) |
+                @Html.ActionLink("Delete","Delete", item)
             </td>
         </tr>
 }
